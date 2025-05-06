@@ -1,4 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = C:\Users\saeed\AppData\Local\Temp
+    url = s3://mymlflowaws
