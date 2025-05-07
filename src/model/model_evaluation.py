@@ -166,6 +166,9 @@ def main():
             )
 
             # Save model info
+            # artifect_uri = mlflow.get_artifact_uri()
+            # model_path = f"{artifect_uri}/lgbm_model"
+            
             model_path = "lgbm_model"
             save_model_info(run.info.run_id, model_path, 'experiment_info.json')
 
